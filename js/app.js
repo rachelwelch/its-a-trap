@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     // capture click on image
     $('.image').on('click', function() {
-      $('.warning').show('slow');
+      $('.warning').toggle('slow');
     })
                     
 });
